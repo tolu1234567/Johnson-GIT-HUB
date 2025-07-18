@@ -72,4 +72,6 @@ source /scratch/Shares/public/sread2025/generalpythonvenv/bin/activate  #virtual
 multiqc ${qc} -o ${multiqcdir}
 
 echo "DONE: Preprocessing................."
-echo Job finished at `date +"%T %a %d %b %Y"`
+echo Job finished at `
+date +"%T %a %d %b %Y" 
+echo done
